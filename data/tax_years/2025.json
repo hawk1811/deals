@@ -1,0 +1,83 @@
+{
+    "income_tax_brackets_monthly": [
+        {
+            "bracket": 1,
+            "min_income": 0,
+            "max_income": 7010,
+            "tax_rate": 0.1
+        },
+        {
+            "bracket": 2,
+            "min_income": 7011,
+            "max_income": 10060,
+            "tax_rate": 0.14
+        },
+        {
+            "bracket": 3,
+            "min_income": 10061,
+            "max_income": 16150,
+            "tax_rate": 0.2
+        },
+        {
+            "bracket": 4,
+            "min_income": 16151,
+            "max_income": 22440,
+            "tax_rate": 0.31
+        },
+        {
+            "bracket": 5,
+            "min_income": 22441,
+            "max_income": 46690,
+            "tax_rate": 0.35
+        },
+        {
+            "bracket": 6,
+            "min_income": 46691,
+            "max_income": 60130,
+            "tax_rate": 0.47
+        },
+        {
+            "bracket": 7,
+            "min_income": 60131,
+            "max_income": null,
+            "tax_rate": 0.5
+        }
+    ],
+    "tax_credit_point": {
+        "monthly_value": 242,
+        "annual_value": 2904
+    },
+    "national_insurance": {
+        "brackets": [
+            {
+                "min_income": 0,
+                "max_income": 7522,
+                "rate": 0.0104
+            },
+            {
+                "min_income": 7523,
+                "max_income": 50695,
+                "rate": 0.07
+            }
+        ],
+        "max_income_ceiling": 50695
+    },
+    "health_insurance": {
+        "brackets": [
+            {
+                "min_income": 0,
+                "max_income": 7522,
+                "rate": 0.0323
+            },
+            {
+                "min_income": 7523,
+                "max_income": 50695,
+                "rate": 0.0517
+            }
+        ],
+        "max_income_ceiling": 50695
+    },
+    "education_fund": {
+        "tax_exempt_ceiling": 15712
+    }
+}
